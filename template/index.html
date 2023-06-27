@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+<script src="/static/js/common.js"></script>
+</head>
+<body>
+<h1>
+    my first go web
+</h1>
+
+{{.msg}}
+
+
+<!--<form action="/user/add" method="post">-->
+
+<!--        <p>username: <input type="text" name="username"> </p>-->
+
+<!--    <p>password: <input type="text" name="password"> </p>-->
+
+
+<!--        <button type="submit" >submit</button>-->
+
+<!--</form>-->
+
+<div class="formTest">
+    <form action="/user/add" method="post">
+        <div class="user">
+            <label>
+                <input type="text" name="username">
+            </label></br>
+        </div>
+        <div class="user">
+            <label>
+                <input type="password" name="password">
+            </label></br>
+        </div>
+        <div class="submit">
+            <button type="submit" value="submit">submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
